@@ -1,0 +1,1 @@
+Created a canvas-based drawing of an Abyss Watcher silhouette with a dark souls inspired theme. The image features a hooded figure with armor and a sword, using a dark red color scheme with glowing effects.
