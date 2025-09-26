@@ -1,0 +1,1 @@
+Basic cookie clicker implementation with multiplier and auto-clicker upgrades. Click the cookie to earn cookies, then spend them on upgrades to earn more cookies faster.

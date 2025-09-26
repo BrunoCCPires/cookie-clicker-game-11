@@ -1,42 +1,67 @@
-#root {
-  max-width: 1280px;
+.container {
+  max-width: 800px;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 20px;
   text-align: center;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.cookie-section {
+  margin: 40px 0;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.cookie-count {
+  font-size: 24px;
+  margin-bottom: 20px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
+.cookie-button {
+  font-size: 80px;
+  padding: 20px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  cursor: pointer;
+  transition: transform 0.1s;
 }
 
-.card {
-  padding: 2em;
+.cookie-button:hover {
+  transform: scale(1.1);
 }
 
-.read-the-docs {
-  color: #888;
+.cookie-button:active {
+  transform: scale(0.95);
+}
+
+.upgrades {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.upgrade-item {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 8px;
+  min-width: 200px;
+}
+
+.upgrade-item button {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.upgrade-item button:disabled {
+  background: #cccccc;
+  cursor: not-allowed;
+}
+
+.upgrade-item div {
+  margin: 5px 0;
+  font-size: 14px;
 }
